@@ -4,6 +4,8 @@ const removeElement = function (array, item) {
   });
 };
 
-const array = [1, 2, 3, 4, 5, 6, 7];
+const array = [1, 2, 3, 4, 5, 6, 7, 5, 5];
 const newArray = removeElement(array, 5);
-console.log(newArray); // Результат фільтрації
+console.log(newArray);
+
+module.exports = removeElement;
